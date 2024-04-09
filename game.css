@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(67, 2, 141);
+    color: white;
+    font-family: Arial;
+    align-content: center;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    max-width: 700px;
+    text-align: center;
+    min-height: 40vh;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.move-icon{
+    height: 50px;
+}
+
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.move-button:hover{
+    background-color: rgba(169, 248, 242, 0.616) ;
+    border: 3px solid white;
+    width: 125px;
+    height: 125px;
+    border-radius: 65px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.score{
+    margin-top: 60px;
+}
+
+.reset-score-button{
+    background-color: rgb(243, 15, 15);
+    color: aliceblue;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+@media  (min-width: 450px) and (max-width: 768px){
+    .move-icon{
+        height: 70px;
+    }
+    
+    .move-button{
+        background-color: transparent;
+        border: 3px solid white;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    .move-button:hover{
+        background-color: rgba(169, 248, 242, 0.616) ;
+        border: 3px solid white;
+        width: 125px;
+        height: 125px;
+        border-radius: 65px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .result{
+        font-size: 80px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    .score{
+        margin-top: 60px;
+    }
+    
+    .reset-score-button{
+        background-color: rgb(243, 15, 15);
+        color: aliceblue;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 8px 15px;
+        cursor: pointer;
+    }
+}
